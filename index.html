@@ -2,24 +2,16 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
-  />
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
   <title>Black Point - Cardápio Digital</title>
 
-  <!-- Bootstrap core -->
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-  />
-
-  <!-- Estilos do projeto -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+        rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
 
-<!-- HEADER / LOGO -->
 <header class="p-3 text-center">
   <h1 class="logo-text mb-0">
     <span class="bp bp-red">B</span>
@@ -44,46 +36,35 @@
       <button id="home-btn-petiscos" class="btn btn-cat ms-2">Petiscos</button>
     </div>
 
-    <img
-      src="https://images.unsplash.com/photo-1606851093808-4eeb04a26d8f?auto=format&fit=crop&w=300&q=80"
-      alt="Foto do Bar Black Point"
-      class="foto-bar mb-3"
-    />
+    <img src="https://images.unsplash.com/photo-1606851093808-4eeb04a26d8f?auto=format&fit=crop&w=300&q=80"
+         alt="Foto do Bar Black Point"
+         class="foto-bar mb-3" />
 
-    <h2 class="home-title mb-2">Bem‑Vindos</h2>
+    <h2 class="home-title mb-2">Bem-Vindos</h2>
     <p class="home-subtitle mb-0">Escolha uma categoria para ver nosso cardápio.</p>
   </section>
 
-  <!-- CATEGORY VIEW -->
+  <!-- CATEGORY & SUBCATEGORY VIEW -->
   <section id="category-view" class="d-none">
-    <!-- topo: botão voltar + título da categoria -->
-    <div class="d-flex align-items-center mb-3">
-      <button id="cat-back-home" class="btn btn-back me-2">&larr;</button>
-      <h2 id="cat-title" class="m-0 fw-bold"></h2>
-    </div>
+    <h2 id="cat-title" class="text-center fw-bold mb-3"></h2>
 
-    <!-- botões das subcategorias da categoria atual -->
-    <div id="cat-subcats" class="d-flex flex-wrap gap-2 mb-4"></div>
+    <div id="cat-subcats" class="d-flex flex-wrap gap-2 justify-content-center mb-4"></div>
 
-    <!-- SUBCATEGORY VIEW -->
     <div id="subcat-view" class="d-none">
-      <div class="d-flex align-items-center mb-3">
-        <button id="subcat-back-cat" class="btn btn-back me-2">&larr;</button>
-        <h3 id="subcat-title" class="m-0"></h3>
-      </div>
-
-      <!-- Itens (grupo ou lista) -->
+      <h3 id="subcat-title" class="text-center fw-semibold mb-3"></h3>
       <div id="subcat-items" class="row g-3"></div>
     </div>
   </section>
 
-  <!-- espaço final para scroll -->
-  <div class="mb-5 pb-5"></div>
 </main>
 
-<!-- Bootstrap bundle -->
+<!-- RODAPÉ FIXO: VOLTAR + CHAMAR GARÇOM -->
+<footer id="footer-actions" class="footer-acoes position-fixed bottom-0 start-0 end-0 px-3 py-2 d-flex gap-3 d-none">
+  <button id="btn-voltar" class="btn btn-dark flex-fill">← Voltar</button>
+  <button id="btn-chamar-garcom" class="btn btn-success flex-fill">Chamar Garçom</button>
+</footer>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<!-- Lógica do cardápio -->
 <script src="assets/js/main.js"></script>
 </body>
 </html>
