@@ -41,10 +41,10 @@ const DATA = {
       "Sem Álcool": [
         { nome: "Heineken Long Neck 350ml", preco: 9.00, img: "assets/img/lgheinzer0.jpg" },
         { nome: "Heineken Lata 350ml", preco: 7.00, img: "assets/img/lheinzer0350ml.jpg" },
-        { nome: "Budweinser Long Neck 350ml", preco: 9.00, img: "assets/img/lgbud0.jpg" },
+        { nome: "Budweinser Long Neck 350ml", preco: 8.00, img: "assets/img/lgbud0.jpg" },
         { nome: "Budweinser Lata 350ml", preco: 7.00, img: "assets/img/lbud0.png" },
-        { nome: "Itaipava Lata 350ml", preco: 9.00, img: "assets/img/litaipazer0350.jpg" },
-        { nome: "Brahma Lata 350ml", preco: 9.00, img: "assets/img/lbrahmazero350.jpg" },
+        { nome: "Itaipava Lata 350ml", preco: 5.00, img: "assets/img/litaipazer0350.jpg" },
+        { nome: "Brahma Lata 350ml", preco: 5.00, img: "assets/img/lbrahmazero350.jpg" },
       ],
       "Litrinho": [
         { nome: "Skol 300ml", preco: 4.50, img: "assets/img/skollitrinho.jpg" },
@@ -65,7 +65,7 @@ const DATA = {
       ],
       "Taça": [
         { nome: "Taça de Vinho Tinto", preco: 9.00, img: "assets/img/taça.jpg" },
-        { nome: "érgola Tinto Suave", preco: 9.90, img: "assets/img/taça.jpg" }
+        { nome: "Pérgola Tinto Suave", preco: 9.90, img: "assets/img/taça.jpg" }
       ]
     },
 
@@ -242,9 +242,9 @@ homeBtnBebidas.addEventListener("click", () => showCategory("Bebidas"));
 homeBtnTiragostos.addEventListener("click", () => showCategory("Tiragostos"));
 
 btnVoltar.addEventListener("click", showHome);
-btnChamarGarcom.addEventListener("click", () =>
-  alert("O garçom está a caminho! 🍻")
-);
+
+btnChamarGarcom.addEventListener("click", chamarGarcom);
+
 
 /* ===========================
    INICIALIZAÇÃO
