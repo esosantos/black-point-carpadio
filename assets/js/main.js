@@ -95,29 +95,28 @@ const DATA = {
 
   "Tiragostos": {
     "Petiscos": [
-      { nome: "Salame", preco: 18.00, img: "assets/img/" },
-      { nome: "Salame c/ Queijo", preco: 22.00, img: "assets/img/" },
-      { nome: "Azeitona", preco: 12.00, img: "assets/img/" },
-      { nome: "Petisco Completo", preco: 35.00, img: "assets/img/" },
-      { nome: "Queijo Coalho", preco: 20.00, img: "assets/img/" },
-      { nome: "Batata Frita", preco: 18.00, img: "assets/img/" }
+      { nome: "Salame", preco: 15.00, img: "assets/img/" },
+      { nome: "C/ Queijo", preco: 25.00, img: "assets/img/" },
+      { nome: "Azeitona", preco: 7.00, img: "assets/img/" },
+      { nome: "Petisco Completo", preco: 30.00, img: "assets/img/" },
+      { nome: "Queijo", preco: 15.00, img: "assets/img/" },
+      { nome: "Porção Batata Fritas", preco: 15.00, img: "assets/img/fritas.jpg" }
     ],
-    "Carne do Sol": [
-      { nome: "c/ Farofa e Salada", preco: 45.00, img: "assets/img/" },
-      { nome: "c/ Batata Frita", preco: 48.00, img: "assets/img/" },
-      { nome: "c/ Pirão de Aipim", preco: 49.00, img: "assets/img/" },
-      { nome: "Arrumadinho de Carne", preco: 50.00, img: "assets/img/" }
+    "Fritas": [
+      { nome: "Carne do Sol com Farofa e Salada", preco: 25.00, img: "assets/img/fritas_carne_sol.jpg" },
+      { nome: "Carne do Sol com Batata Frita", preco: 30.00, img: "assets/img/carnedosolcomfritas.png" },
+      { nome: "Carne do Sol com Pirão de Aipim", preco: 35.00, img: "assets/img/" },
+      { nome: "Arrumadinho de Carne", preco: 35.00, img: "assets/img/arrumadinho_2.jpg" },
+      { nome: "Arrumadinho 1/2 de Carne", preco: 35.00, img: "assets/img/" },
+      { nome: "Isca de Frango com Fritas", preco: 40.00, img: "assets/img/" },
+      { nome: "Isca de Frango com Salada e Farofa", preco: 30.00, img: "assets/img/" },
+      { nome: "Frango a Passarinha", preco: 35.00, img: "assets/img/" },
+      { nome: "Camarão Alho e Óleo", preco: 35.00, img: "assets/img/" }
     ],
     "Caldos": [
       { nome: "Caldo de Sururu", preco: 10.00, img: "assets/img/" },
       { nome: "Caldo de Camarão", preco: 10.00, img: "assets/img/" },
       { nome: "Caldo Verde", preco: 8.00, img: "assets/img/" }
-    ],
-    "Isca de Peixe": [
-      { nome: "c/ Fritas", preco: 32.00, img: "assets/img/" },
-      { nome: "c/ Farofa", preco: 30.00, img: "assets/img/" },
-      { nome: "c/ Frango à Passarinho", preco: 38.00, img: "assets/img/" },
-      { nome: "c/ Camarão Alho & Óleo", preco: 55.00, img: "assets/img/" }
     ]
   }
 };
