@@ -63,15 +63,16 @@ const DATA = {
         { nome: "Pérgola Tinto Suave", preco: 9.90, img: "assets/img/taça.jpg" }
       ]
     },
-    "Drinks": {
-      "Roska": [
-        { nome: "Caipiroska Limão", preco: 19.00, img: "https://images.unsplash.com/photo-1604926797431-efeeff0ba949?auto=format&fit=crop&w=200&q=60" },
-        { nome: "Caipiroska Morango", preco: 21.00, img: "https://images.unsplash.com/photo-1604926797431-efeeff0ba949?auto=format&fit=crop&w=200&q=60" }
+    "Destilados": {
+      "Dose": [
+        { nome: "Dreher / Domus", preco: 3.00, img: "assets/img/" },
+        { nome: "Domec", preco: 5.00, img: "assets/img/" },
+        { nome: "Alcatrão", preco: 4.00, img: "assets/img/" },
+        { nome: "Campari", preco: 6.00, img: "assets/img/" },
+        { nome: "Genebra", preco: 9.00, img: "assets/img/" },
+        { nome: "Acrescentr Limão e Mel", preco: 1.00, img: "assets/img/" }
       ],
-      "Gim": [
-        { nome: "Gin Tônica Clássico", preco: 22.00, img: "https://images.unsplash.com/photo-1604434954014-21fb4a11cf3f?auto=format&fit=crop&w=200&q=60" },
-        { nome: "Gin Frutas Vermelhas", preco: 24.00, img: "https://images.unsplash.com/photo-1604434954014-21fb4a11cf3f?auto=format&fit=crop&w=200&q=60" }
-      ]
+
     },
     "Bebidas Não Alcoólicas": {
       "Refrigerante": [
@@ -277,7 +278,7 @@ function chamarGarcom() {
   try {
     const w = window.open(appURL, "_blank");
     opened = !!w;
-  } catch (_) {}
+  } catch (_) { }
 
   setTimeout(() => {
     if (!opened) {
