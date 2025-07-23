@@ -13,7 +13,6 @@ const DATA = {
         { nome: "Schin 600ml", preco: 7.00, img: "assets/img/gschin600.jpg" },
         { nome: "Devassa 600ml", preco: 10.00, img: "assets/img/gdevassa60ml.jpg" },
         { nome: "Skol 600ml", preco: 10.00, img: "assets/img/gskol600.jpg" }
-
       ],
       "LONG NECK": [
         { nome: "Heineken Long Neck 350ml", preco: 9.00, img: "assets/img/lnhein300ml.jpg" },
@@ -31,33 +30,29 @@ const DATA = {
         { nome: "Brahma Duplo Malte Lata 350ml", preco: 5.00, img: "assets/img/lbrahma.jpg" },
         { nome: "Devassa Lata 350ml", preco: 5.00, img: "assets/img/ldevassa350.jpg" },
         { nome: "Schin Lata 350ml", preco: 4.00, img: "assets/img/lschin350ml.jpg" }
-
       ],
       "Malzebier": [
         { nome: "Brahma Malzebier Lata 350ml", preco: 8.00, img: "assets/img/brahmamalzebier.jpg" },
         { nome: "Itaipava Malzebier Lata 350ml", preco: 7.00, img: "assets/img/itaipavamalzebier.jpg" }
-
       ],
       "Sem Álcool": [
         { nome: "Heineken Long Neck 350ml", preco: 9.00, img: "assets/img/lgheinzer0.jpg" },
         { nome: "Heineken Lata 350ml", preco: 7.00, img: "assets/img/lheinzer0350ml.jpg" },
-        { nome: "Budweinser Long Neck 350ml", preco: 8.00, img: "assets/img/lgbud0.jpg" },
+        { nome: "Budweinser Long Neck 350ml", preco: 9.00, img: "assets/img/lgbud0.jpg" },
         { nome: "Budweinser Lata 350ml", preco: 7.00, img: "assets/img/lbud0.png" },
-        { nome: "Itaipava Lata 350ml", preco: 5.00, img: "assets/img/litaipazer0350.jpg" },
-        { nome: "Brahma Lata 350ml", preco: 5.00, img: "assets/img/lbrahmazero350.jpg" },
+        { nome: "Itaipava Lata 350ml", preco: 9.00, img: "assets/img/litaipazer0350.jpg" },
+        { nome: "Brahma Lata 350ml", preco: 9.00, img: "assets/img/lbrahmazero350.jpg" }
       ],
       "Litrinho": [
         { nome: "Skol 300ml", preco: 4.50, img: "assets/img/skollitrinho.jpg" },
         { nome: "Brahma 300ml", preco: 4.50, img: "assets/img/litrinhobrahma300.jpg" }
       ]
     },
-
     "Whisky (Doses)": [
       { nome: "Johnnie Walker Red - Dose", preco: 20.00, img: "assets/img/redlabel.jpg" },
       { nome: "Johnnie Walker Black - Dose", preco: 28.00, img: "assets/img/blacklabel.jpg" },
       { nome: "Ballantine's - Dose", preco: 18.00, img: "assets/img/ballantines.jpg" }
     ],
-
     "Vinho": {
       "Garrafa": [
         { nome: "Quinta do Morgado Suave", preco: 29.00, img: "assets/img/vinhoquinta.jpg" },
@@ -68,7 +63,6 @@ const DATA = {
         { nome: "Pérgola Tinto Suave", preco: 9.90, img: "assets/img/taça.jpg" }
       ]
     },
-
     "Drinks": {
       "Roska": [
         { nome: "Caipiroska Limão", preco: 19.00, img: "https://images.unsplash.com/photo-1604926797431-efeeff0ba949?auto=format&fit=crop&w=200&q=60" },
@@ -107,20 +101,17 @@ const DATA = {
       { nome: "Queijo Coalho", preco: 20.00, img: "https://images.unsplash.com/photo-1606490638272-180b1a9197c0?auto=format&fit=crop&w=200&q=60" },
       { nome: "Batata Frita", preco: 18.00, img: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=200&q=60" }
     ],
-
     "Carne do Sol": [
       { nome: "c/ Farofa e Salada", preco: 45.00, img: "https://images.unsplash.com/photo-1605478251089-148d464472b1?auto=format&fit=crop&w=200&q=60" },
       { nome: "c/ Batata Frita", preco: 48.00, img: "https://images.unsplash.com/photo-1605478251089-148d464472b1?auto=format&fit=crop&w=200&q=60" },
       { nome: "c/ Pirão de Aipim", preco: 49.00, img: "https://images.unsplash.com/photo-1605478251089-148d464472b1?auto=format&fit=crop&w=200&q=60" },
       { nome: "Arrumadinho de Carne", preco: 50.00, img: "https://images.unsplash.com/photo-1605478251089-148d464472b1?auto=format&fit=crop&w=200&q=60" }
     ],
-
     "Caldos": [
       { nome: "Caldo de Sururu", preco: 22.00, img: "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=200&q=60" },
       { nome: "Caldo de Camarão", preco: 25.00, img: "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=200&q=60" },
       { nome: "Caldo Verde", preco: 20.00, img: "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=200&q=60" }
     ],
-
     "Isca de Peixe": [
       { nome: "c/ Fritas", preco: 32.00, img: "https://images.unsplash.com/photo-1611327361180-9d9c991690e5?auto=format&fit=crop&w=200&q=60" },
       { nome: "c/ Farofa", preco: 30.00, img: "https://images.unsplash.com/photo-1611327361180-9d9c991690e5?auto=format&fit=crop&w=200&q=60" },
@@ -236,15 +227,73 @@ function appendItem(item) {
 }
 
 /* ===========================
+   FUNÇÕES DO GARÇOM
+   =========================== */
+const GARCOM_PHONE_E164 = "557184334896"; // número do garçom no formato DDI + DDD + número
+
+function showToast(text, timeout = 2500) {
+  let toast = document.getElementById("bp-toast");
+  if (!toast) {
+    toast = document.createElement("div");
+    toast.id = "bp-toast";
+    toast.style.position = "fixed";
+    toast.style.bottom = "80px";
+    toast.style.left = "50%";
+    toast.style.transform = "translateX(-50%)";
+    toast.style.background = "rgba(0,0,0,.85)";
+    toast.style.color = "#fff";
+    toast.style.padding = "8px 16px";
+    toast.style.borderRadius = "8px";
+    toast.style.fontSize = "0.95rem";
+    toast.style.zIndex = "10000";
+    toast.style.pointerEvents = "none";
+    document.body.appendChild(toast);
+  }
+  toast.textContent = text;
+  toast.style.opacity = "1";
+  clearTimeout(showToast._t);
+  showToast._t = setTimeout(() => {
+    toast.style.opacity = "0";
+  }, timeout);
+}
+
+function chamarGarcom() {
+  let mesa = prompt("Informe o número da mesa (opcional):");
+  mesa = mesa ? mesa.trim() : "";
+
+  const mensagemBase = "Olá, gostaria de chamar o garçom";
+  const msgCompleta = mesa
+    ? `${mensagemBase} na mesa ${mesa} no Black Point.`
+    : `${mensagemBase} no Black Point.`;
+
+  const encoded = encodeURIComponent(msgCompleta);
+  const appURL = `whatsapp://send?phone=${GARCOM_PHONE_E164}&text=${encoded}`;
+  const webURL = `https://wa.me/${GARCOM_PHONE_E164}?text=${encoded}`;
+
+  if (navigator.vibrate) navigator.vibrate(50);
+  showToast("Chamando o garçom...");
+
+  let opened = false;
+  try {
+    const w = window.open(appURL, "_blank");
+    opened = !!w;
+  } catch (_) {}
+
+  setTimeout(() => {
+    if (!opened) {
+      window.open(webURL, "_blank");
+    }
+  }, 600);
+}
+
+/* ===========================
    EVENTOS
    =========================== */
 homeBtnBebidas.addEventListener("click", () => showCategory("Bebidas"));
 homeBtnTiragostos.addEventListener("click", () => showCategory("Tiragostos"));
 
 btnVoltar.addEventListener("click", showHome);
-
 btnChamarGarcom.addEventListener("click", chamarGarcom);
-
 
 /* ===========================
    INICIALIZAÇÃO
