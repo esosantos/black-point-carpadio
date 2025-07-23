@@ -107,7 +107,7 @@ const DATA = {
       { nome: "Carne do Sol com Batata Frita", preco: 30.00, img: "assets/img/carnedosolcomfritas.png" },
       { nome: "Carne do Sol com Pirão de Aipim", preco: 35.00, img: "assets/img/" },
       { nome: "Arrumadinho de Carne", preco: 35.00, img: "assets/img/arrumadinho_2.jpg" },
-      { nome: "Arrumadinho 1/2 de Carne", preco: 35.00, img: "assets/img/" },
+      { nome: "Arrumadinho 1/2 de Carne", preco: 25.00, img: "assets/img/" },
       { nome: "Isca de Frango com Fritas", preco: 40.00, img: "assets/img/" },
       { nome: "Isca de Frango com Salada e Farofa", preco: 30.00, img: "assets/img/" },
       { nome: "Frango a Passarinha", preco: 35.00, img: "assets/img/" },
