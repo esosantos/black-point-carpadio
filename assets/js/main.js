@@ -65,12 +65,12 @@ const DATA = {
     },
     "Destilados": {
       "Dose": [
-        { nome: "Dreher / Domus", preco: 3.00, img: "assets/img/" },
-        { nome: "Domec", preco: 5.00, img: "assets/img/" },
-        { nome: "Alcatrão", preco: 4.00, img: "assets/img/" },
-        { nome: "Campari", preco: 6.00, img: "assets/img/" },
-        { nome: "Genebra", preco: 9.00, img: "assets/img/" },
-        { nome: "Acrescentr Limão e Mel", preco: 1.00, img: "assets/img/" }
+        { nome: "Dreher / Domus", preco: 3.00, img: "assets/img/dreher.jpg" },
+        { nome: "Domecq", preco: 5.00, img: "assets/img/domecq.jpg" },
+        { nome: "Alcatrão", preco: 4.00, img: "assets/img/alcatrao.jpg" },
+        { nome: "Campari", preco: 6.00, img: "assets/img/campari.jpg" },
+        { nome: "Genebra", preco: 9.00, img: "assets/img/genebra.jpg" },
+        { nome: "Acrescentar Limão e Mel", preco: 1.00, img: "assets/img/limaoemel.jpg" }
       ],
 
     },
@@ -95,29 +95,29 @@ const DATA = {
 
   "Tiragostos": {
     "Petiscos": [
-      { nome: "Salame", preco: 18.00, img: "https://images.unsplash.com/photo-1604908176740-6bb77eb8aad5?auto=format&fit=crop&w=200&q=60" },
-      { nome: "Salame c/ Queijo", preco: 22.00, img: "https://images.unsplash.com/photo-1604908176740-6bb77eb8aad5?auto=format&fit=crop&w=200&q=60" },
-      { nome: "Azeitona", preco: 12.00, img: "https://images.unsplash.com/photo-1585238341986-43ca9649a61d?auto=format&fit=crop&w=200&q=60" },
-      { nome: "Petisco Completo", preco: 35.00, img: "https://images.unsplash.com/photo-1617196038069-2a24e60bcd4a?auto=format&fit=crop&w=200&q=60" },
-      { nome: "Queijo Coalho", preco: 20.00, img: "https://images.unsplash.com/photo-1606490638272-180b1a9197c0?auto=format&fit=crop&w=200&q=60" },
-      { nome: "Batata Frita", preco: 18.00, img: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=200&q=60" }
+      { nome: "Salame", preco: 18.00, img: "assets/img/" },
+      { nome: "Salame c/ Queijo", preco: 22.00, img: "assets/img/" },
+      { nome: "Azeitona", preco: 12.00, img: "assets/img/" },
+      { nome: "Petisco Completo", preco: 35.00, img: "assets/img/" },
+      { nome: "Queijo Coalho", preco: 20.00, img: "assets/img/" },
+      { nome: "Batata Frita", preco: 18.00, img: "assets/img/" }
     ],
     "Carne do Sol": [
-      { nome: "c/ Farofa e Salada", preco: 45.00, img: "https://images.unsplash.com/photo-1605478251089-148d464472b1?auto=format&fit=crop&w=200&q=60" },
-      { nome: "c/ Batata Frita", preco: 48.00, img: "https://images.unsplash.com/photo-1605478251089-148d464472b1?auto=format&fit=crop&w=200&q=60" },
-      { nome: "c/ Pirão de Aipim", preco: 49.00, img: "https://images.unsplash.com/photo-1605478251089-148d464472b1?auto=format&fit=crop&w=200&q=60" },
-      { nome: "Arrumadinho de Carne", preco: 50.00, img: "https://images.unsplash.com/photo-1605478251089-148d464472b1?auto=format&fit=crop&w=200&q=60" }
+      { nome: "c/ Farofa e Salada", preco: 45.00, img: "assets/img/" },
+      { nome: "c/ Batata Frita", preco: 48.00, img: "assets/img/" },
+      { nome: "c/ Pirão de Aipim", preco: 49.00, img: "assets/img/" },
+      { nome: "Arrumadinho de Carne", preco: 50.00, img: "assets/img/" }
     ],
     "Caldos": [
-      { nome: "Caldo de Sururu", preco: 22.00, img: "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=200&q=60" },
-      { nome: "Caldo de Camarão", preco: 25.00, img: "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=200&q=60" },
-      { nome: "Caldo Verde", preco: 20.00, img: "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=200&q=60" }
+      { nome: "Caldo de Sururu", preco: 10.00, img: "assets/img/" },
+      { nome: "Caldo de Camarão", preco: 10.00, img: "assets/img/" },
+      { nome: "Caldo Verde", preco: 8.00, img: "assets/img/" }
     ],
     "Isca de Peixe": [
-      { nome: "c/ Fritas", preco: 32.00, img: "https://images.unsplash.com/photo-1611327361180-9d9c991690e5?auto=format&fit=crop&w=200&q=60" },
-      { nome: "c/ Farofa", preco: 30.00, img: "https://images.unsplash.com/photo-1611327361180-9d9c991690e5?auto=format&fit=crop&w=200&q=60" },
-      { nome: "c/ Frango à Passarinho", preco: 38.00, img: "https://images.unsplash.com/photo-1627328715728-7bcc1b5db87d?auto=format&fit=crop&w=200&q=60" },
-      { nome: "c/ Camarão Alho & Óleo", preco: 55.00, img: "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=200&q=60" }
+      { nome: "c/ Fritas", preco: 32.00, img: "assets/img/" },
+      { nome: "c/ Farofa", preco: 30.00, img: "assets/img/" },
+      { nome: "c/ Frango à Passarinho", preco: 38.00, img: "assets/img/" },
+      { nome: "c/ Camarão Alho & Óleo", preco: 55.00, img: "assets/img/" }
     ]
   }
 };
