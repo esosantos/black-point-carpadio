@@ -4,37 +4,51 @@
 const DATA = {
   "Bebidas": {
     "Cervejas": {
-      "Garrafa": [
+      "GARRAFA": [
         { nome: "Heineken 600ml", preco: 15.00, img: "assets/img/ghein.jpg" },
         { nome: "Spaten 600ml", preco: 12.00, img: "assets/img/gspaten.jpg" },
         { nome: "Budweiser 600ml", preco: 12.00, img: "assets/img/gbud600.jpg" },
         { nome: "Amstel 600ml", preco: 12.00, img: "assets/img/gamstel600.jpg" },
         { nome: "Itaipava 600ml", preco: 7.00, img: "assets/img/gitaipava600.jpg" },
         { nome: "Schin 600ml", preco: 7.00, img: "assets/img/gschin600.jpg" },
-        { nome: "Brahma 600ml", preco: 8.00, img: "assets/img/gbrahma600.jpg" },
+        { nome: "Devassa 600ml", preco: 10.00, img: "assets/img/gdevassa60ml.jpg" },
         { nome: "Skol 600ml", preco: 10.00, img: "assets/img/gskol600.jpg" }
 
       ],
-      "Long Neck": [
-        { nome: "Heineken Long Neck 330ml", preco: 9.00, img: "assets/img/lnhein300ml.jpg" },
-        { nome: "Spaten Long Neck 330ml", preco: 8.00, img: "assets/img/lnspaten330.jpg" },
-        { nome: "Budweiser Long Neck 350ml", preco: 8.00, img: "assets/img/lnbudwei350.jpg" },
+      "LONG NECK": [
+        { nome: "Heineken Long Neck 350ml", preco: 9.00, img: "assets/img/lnhein300ml.jpg" },
+        { nome: "Spaten Long Neck 350ml", preco: 8.00, img: "assets/img/lnspaten330.jpg" },
+        { nome: "Budweiser Long Neck 350ml", preco: 7.00, img: "assets/img/lnbudwei350.jpg" },
         { nome: "Corona Long Neck 210ml", preco: 9.00, img: "assets/img/lncorona210ml.jpg" },
         { nome: "Stella Long Neck 330ml", preco: 8.00, img: "assets/img/lnstella330ml.jpg" }
       ],
-      "Lata": [
-        { nome: "Heineken Lata", preco: 8.00, img: "https://images.unsplash.com/photo-1581382575275-fb47c1e4e83d?auto=format&fit=crop&w=200&q=60" },
-        { nome: "Bud Lata", preco: 7.50, img: "https://images.unsplash.com/photo-1510626176961-4b43b87e8e68?auto=format&fit=crop&w=200&q=60" },
-        { nome: "Amstel Lata", preco: 7.00, img: "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=200&q=60" },
-        { nome: "Brahma Lata", preco: 6.50, img: "https://images.unsplash.com/photo-1527169402691-feff5539e52c?auto=format&fit=crop&w=200&q=60" },
-        { nome: "Itaipava Lata", preco: 6.00, img: "https://images.unsplash.com/photo-1606787504342-6e6c0f64e3e7?auto=format&fit=crop&w=200&q=60" }
+      "LATA": [
+        { nome: "Heineken Lata 330ml", preco: 7.00, img: "assets/img/lhein.jpg" },
+        { nome: "Spaten Lata 330ml", preco: 6.00, img: "assets/img/lspaten.jpg" },
+        { nome: "Amstel Lata 330ml", preco: 5.00, img: "assets/img/lamstel.jpg" },
+        { nome: "Budweiser Lata 350ml", preco: 5.00, img: "assets/img/lbud.jpg" },
+        { nome: "Itaipava Lata 350ml", preco: 4.00, img: "assets/img/litai.jpg" },
+        { nome: "Brahma Duplo Malte Lata 350ml", preco: 5.00, img: "assets/img/lbrahma.jpg" },
+        { nome: "Devassa Lata 350ml", preco: 5.00, img: "assets/img/ldevassa350.jpg" },
+        { nome: "Schin Lata 350ml", preco: 4.00, img: "assets/img/lschin350ml.jpg" }
+
+      ],
+       "Malzebier": [
+        { nome: "Brahma Malzebier Lata 350ml", preco: 8.00, img: "assets/img/brahmamalzebier.jpg" },
+        { nome: "Itaipava Malzebier Lata 350ml", preco: 7.00, img: "assets/img/itaipavamalzebier.jpg" }
+      
       ],
       "Sem Álcool": [
-        { nome: "Heineken 0.0", preco: 8.50, img: "https://images.unsplash.com/photo-1592928307156-1d82e503fc94?auto=format&fit=crop&w=200&q=60" }
+        { nome: "Heineken Long Neck 350ml", preco: 9.00, img: "assets/img/lgheinzer0.jpg" },
+        { nome: "Heineken Lata 350ml", preco: 7.00, img: "assets/img/lheinzer0350ml.jpg" },
+        { nome: "Budweinser Long Neck 350ml", preco: 9.00, img: "assets/img/lgbud0.jpg" },
+        { nome: "Budweinser Lata 350ml", preco: 7.00, img: "assets/img/lbud0.png" },
+        { nome: "Itaipava Lata 350ml", preco: 9.00, img: "assets/img/litaipazer0350.jpg" },
+        { nome: "Brahma Lata 350ml", preco: 9.00, img: "assets/img/lbrahmazero350.jpg" },
       ],
       "Litrinho": [
-        { nome: "Brahma Litrinho", preco: 5.50, img: "https://images.unsplash.com/photo-1606224309253-5ee08c6be53b?auto=format&fit=crop&w=200&q=60" },
-        { nome: "Skol Litrinho", preco: 5.50, img: "https://images.unsplash.com/photo-1606224309253-5ee08c6be53b?auto=format&fit=crop&w=200&q=60" }
+        { nome: "Itaipava Lata 350ml", preco: 4.50, img: "assets/img/skollitrinho.jpg" },
+        { nome: "Brahma Lata 350ml", preco: 4.50, img: "assets/img/litrinhobrahma300.jpg" }
       ]
     },
 
@@ -56,6 +70,16 @@ const DATA = {
     },
 
     "Drinks": {
+      "Roska": [
+        { nome: "Caipiroska Limão", preco: 19.00, img: "https://images.unsplash.com/photo-1604926797431-efeeff0ba949?auto=format&fit=crop&w=200&q=60" },
+        { nome: "Caipiroska Morango", preco: 21.00, img: "https://images.unsplash.com/photo-1604926797431-efeeff0ba949?auto=format&fit=crop&w=200&q=60" }
+      ],
+      "Gim": [
+        { nome: "Gin Tônica Clássico", preco: 22.00, img: "https://images.unsplash.com/photo-1604434954014-21fb4a11cf3f?auto=format&fit=crop&w=200&q=60" },
+        { nome: "Gin Frutas Vermelhas", preco: 24.00, img: "https://images.unsplash.com/photo-1604434954014-21fb4a11cf3f?auto=format&fit=crop&w=200&q=60" }
+      ]
+    },
+    "Bebidas Não Alcoólicas": {
       "Roska": [
         { nome: "Caipiroska Limão", preco: 19.00, img: "https://images.unsplash.com/photo-1604926797431-efeeff0ba949?auto=format&fit=crop&w=200&q=60" },
         { nome: "Caipiroska Morango", preco: 21.00, img: "https://images.unsplash.com/photo-1604926797431-efeeff0ba949?auto=format&fit=crop&w=200&q=60" }
