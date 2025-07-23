@@ -33,10 +33,10 @@ const DATA = {
         { nome: "Schin Lata 350ml", preco: 4.00, img: "assets/img/lschin350ml.jpg" }
 
       ],
-       "Malzebier": [
+      "Malzebier": [
         { nome: "Brahma Malzebier Lata 350ml", preco: 8.00, img: "assets/img/brahmamalzebier.jpg" },
         { nome: "Itaipava Malzebier Lata 350ml", preco: 7.00, img: "assets/img/itaipavamalzebier.jpg" }
-      
+
       ],
       "Sem Álcool": [
         { nome: "Heineken Long Neck 350ml", preco: 9.00, img: "assets/img/lgheinzer0.jpg" },
@@ -47,25 +47,25 @@ const DATA = {
         { nome: "Brahma Lata 350ml", preco: 9.00, img: "assets/img/lbrahmazero350.jpg" },
       ],
       "Litrinho": [
-        { nome: "Itaipava Lata 350ml", preco: 4.50, img: "assets/img/skollitrinho.jpg" },
-        { nome: "Brahma Lata 350ml", preco: 4.50, img: "assets/img/litrinhobrahma300.jpg" }
+        { nome: "Skol 300ml", preco: 4.50, img: "assets/img/skollitrinho.jpg" },
+        { nome: "Brahma 300ml", preco: 4.50, img: "assets/img/litrinhobrahma300.jpg" }
       ]
     },
 
     "Whisky (Doses)": [
-      { nome: "Johnnie Walker Red - Dose", preco: 20.00, img: "https://images.unsplash.com/photo-1613471943027-bc19940cd504?auto=format&fit=crop&w=200&q=60" },
-      { nome: "Johnnie Walker Black - Dose", preco: 28.00, img: "https://images.unsplash.com/photo-1613471943027-bc19940cd504?auto=format&fit=crop&w=200&q=60" },
-      { nome: "Ballantine's - Dose", preco: 18.00, img: "https://images.unsplash.com/photo-1613471943027-bc19940cd504?auto=format&fit=crop&w=200&q=60" }
+      { nome: "Johnnie Walker Red - Dose", preco: 20.00, img: "assets/img/redlabel.jpg" },
+      { nome: "Johnnie Walker Black - Dose", preco: 28.00, img: "assets/img/blacklabel.jpg" },
+      { nome: "Ballantine's - Dose", preco: 18.00, img: "assets/img/ballantines.jpg" }
     ],
 
     "Vinho": {
       "Garrafa": [
-        { nome: "Miolo Seleção Tinto", preco: 75.00, img: "https://images.unsplash.com/photo-1605448171703-9c52c7c1bca4?auto=format&fit=crop&w=200&q=60" },
-        { nome: "Casal Garcia", preco: 89.00, img: "https://images.unsplash.com/photo-1524594081293-190a2fe0baae?auto=format&fit=crop&w=200&q=60" }
+        { nome: "Quinta do Morgado Suave", preco: 29.00, img: "assets/img/vinhoquinta.jpg" },
+        { nome: "Pérgola Tinto Suave", preco: 30.00, img: "assets/img/pergola.jpg" }
       ],
-      "Dose": [
-        { nome: "Taça de Vinho Tinto", preco: 18.00, img: "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=200&q=60" },
-        { nome: "Taça de Vinho Branco", preco: 18.00, img: "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=200&q=60" }
+      "Taça": [
+        { nome: "Taça de Vinho Tinto", preco: 9.00, img: "assets/img/taça.jpg" },
+        { nome: "érgola Tinto Suave", preco: 9.90, img: "assets/img/taça.jpg" }
       ]
     },
 
@@ -80,13 +80,20 @@ const DATA = {
       ]
     },
     "Bebidas Não Alcoólicas": {
-      "Roska": [
-        { nome: "Caipiroska Limão", preco: 19.00, img: "https://images.unsplash.com/photo-1604926797431-efeeff0ba949?auto=format&fit=crop&w=200&q=60" },
-        { nome: "Caipiroska Morango", preco: 21.00, img: "https://images.unsplash.com/photo-1604926797431-efeeff0ba949?auto=format&fit=crop&w=200&q=60" }
+      "Refrigerante": [
+        { nome: "Coca-cola 1L", preco: 7.50, img: "assets/img/cola1l.jpg" },
+        { nome: "Pepsi Cola 1L", preco: 7.00, img: "assets/img/pepsi1l.jpg" },
+        { nome: "Coca-cola Lata 350ml", preco: 4.50, img: "assets/img/colalata.jpg" },
+        { nome: "Pespsi  Lata 350ml", preco: 4.50, img: "assets/img/pepsilata.jpg" },
+        { nome: "Pet Garrafinha 255ml", preco: 3.50, img: "assets/img/pitulha.jpg" }
       ],
-      "Gim": [
-        { nome: "Gin Tônica Clássico", preco: 22.00, img: "https://images.unsplash.com/photo-1604434954014-21fb4a11cf3f?auto=format&fit=crop&w=200&q=60" },
-        { nome: "Gin Frutas Vermelhas", preco: 24.00, img: "https://images.unsplash.com/photo-1604434954014-21fb4a11cf3f?auto=format&fit=crop&w=200&q=60" }
+      "Águas e Outros": [
+        { nome: "Água com gás 500ml", preco: 3.00, img: "assets/img/aguacomgas.jpg" },
+        { nome: "Água sem gás 500ml", preco: 2.00, img: "assets/img/aguasem.jpg" },
+        { nome: "Água Tônica  350ml", preco: 3.00, img: "assets/img/aguatonica.jpg" },
+        { nome: "Suco", preco: 2.50, img: "assets/img/suco.jpg" },
+        { nome: "Chá", preco: 9.50, img: "assets/img/cha.jpg" },
+        { nome: "Energético", preco: 7.50, img: "assets/img/energetico.jpg" }
       ]
     }
   },
