@@ -54,7 +54,13 @@ header {
 }
 .bp-green {
   color: #1B9F6A;
-}/*
+}
+
+.bp-red{
+  color: #F51720;
+}
+
+/*
 
 .bp-orange {
   color: #fb8c00;

@@ -6,11 +6,14 @@ const DATA = {
     "Cervejas": {
       "600ml": [
         { nome: "Heineken 600ml",  preco: 15.00, img: "assets/img/ghein.jpg" },
-        { nome: "Budweiser 600ml", preco: 14.00, img: "https://images.unsplash.com/photo-1581382575275-fb47c1e4e83d?auto=format&fit=crop&w=200&q=60" },
-        { nome: "Spaten 600ml",    preco: 13.00, img: "https://images.unsplash.com/photo-1611672585731-1c92d9275480?auto=format&fit=crop&w=200&q=60" },
-        { nome: "Amstel 600ml",    preco: 12.50, img: "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=200&q=60" },
-        { nome: "Brahma 600ml",    preco: 12.00, img: "https://images.unsplash.com/photo-1527169402691-feff5539e52c?auto=format&fit=crop&w=200&q=60" },
-        { nome: "Itaipava 600ml",  preco: 11.00, img: "https://images.unsplash.com/photo-1606787504342-6e6c0f64e3e7?auto=format&fit=crop&w=200&q=60" }
+        { nome: "Spaten 600ml",    preco: 12.00, img: "assets/img/gspaten.jpg" },
+        { nome: "Budweiser 600ml", preco: 12.00, img: "assets/img/gbud600.jpg" },   
+        { nome: "Amstel 600ml",    preco: 12.00, img: "assets/img/gamstel600.jpg" },
+         { nome: "Itaipava 600ml",  preco: 7.00, img: "assets/img/gitaipava600.jpg" },
+        { nome: "Schin 600ml",    preco: 7.00, img: "assets/img/gschin600.jpg" },
+        { nome: "Brahma 600ml", preco: 8.00, img: "assets/img/gbrahma600.jpg" },   
+        { nome: " 600ml",    preco: 10.00, img: "assets/img/gskol600.jpg" }
+       
       ],
       "Long Neck": [
         { nome: "Heineken Long Neck", preco: 9.00,  img: "https://images.unsplash.com/photo-1606787504342-6e6c0f64e3e7?auto=format&fit=crop&w=200&q=60" },
