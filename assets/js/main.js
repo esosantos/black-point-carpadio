@@ -3,7 +3,7 @@
    =========================== */
 const DATA = {
   "Bebidas": {
-    "Cervejas": {
+    "CERVEJA": {
       "GARRAFA": [
         { nome: "Heineken 600ml", preco: 15.00, img: "assets/img/ghein.jpg" },
         { nome: "Spaten 600ml", preco: 12.00, img: "assets/img/gspaten.jpg" },
@@ -31,29 +31,29 @@ const DATA = {
         { nome: "Devassa Lata 350ml", preco: 5.00, img: "assets/img/ldevassa350.jpg" },
         { nome: "Schin Lata 350ml", preco: 4.00, img: "assets/img/lschin350ml.jpg" }
       ],
-      "Malzebier": [
+      "MALZEBIER": [
         { nome: "Brahma Malzebier Lata 350ml", preco: 8.00, img: "assets/img/brahmamalzebier.jpg" },
         { nome: "Itaipava Malzebier Lata 350ml", preco: 7.00, img: "assets/img/itaipavamalzebier.jpg" }
       ],
-      "Sem Álcool": [
+      "SEM ÁLCOOL": [
         { nome: "Heineken Long Neck 350ml", preco: 9.00, img: "assets/img/lgheinzer0.jpg" },
         { nome: "Heineken Lata 350ml", preco: 7.00, img: "assets/img/lheinzer0350ml.jpg" },
-        { nome: "Budweinser Long Neck 350ml", preco: 9.00, img: "assets/img/lgbud0.jpg" },
+        { nome: "Budweinser Long Neck 350ml", preco: 8.00, img: "assets/img/lgbud0.jpg" },
         { nome: "Budweinser Lata 350ml", preco: 7.00, img: "assets/img/lbud0.png" },
-        { nome: "Itaipava Lata 350ml", preco: 9.00, img: "assets/img/litaipazer0350.jpg" },
-        { nome: "Brahma Lata 350ml", preco: 9.00, img: "assets/img/lbrahmazero350.jpg" }
+        { nome: "Itaipava Lata 350ml", preco: 6.00, img: "assets/img/litaipazer0350.jpg" },
+        { nome: "Brahma Lata 350ml", preco: 6.00, img: "assets/img/lbrahmazero350.jpg" }
       ],
-      "Litrinho": [
+      "LITRINHO": [
         { nome: "Skol 300ml", preco: 4.50, img: "assets/img/skollitrinho.jpg" },
         { nome: "Brahma 300ml", preco: 4.50, img: "assets/img/litrinhobrahma300.jpg" }
       ]
     },
-    "Whisky (Doses)": [
+    "WHISKY (Doses)": [
       { nome: "Johnnie Walker Red - Dose", preco: 20.00, img: "assets/img/redlabel.jpg" },
       { nome: "Johnnie Walker Black - Dose", preco: 28.00, img: "assets/img/blacklabel.jpg" },
       { nome: "Ballantine's - Dose", preco: 18.00, img: "assets/img/ballantines.jpg" }
     ],
-    "Vinho": {
+    "VINHO": {
       "Garrafa": [
         { nome: "Quinta do Morgado Suave", preco: 29.00, img: "assets/img/vinhoquinta.jpg" },
         { nome: "Pérgola Tinto Suave", preco: 30.00, img: "assets/img/pergola.jpg" }
@@ -63,7 +63,7 @@ const DATA = {
         { nome: "Pérgola Tinto Suave", preco: 9.90, img: "assets/img/taça.jpg" }
       ]
     },
-    "Destilados": {
+    "DESTILADO": {
       "Dose": [
         { nome: "Dreher / Domus", preco: 3.00, img: "assets/img/dreher.jpg" },
         { nome: "Domecq", preco: 5.00, img: "assets/img/domecq.jpg" },
@@ -96,20 +96,21 @@ const DATA = {
   "Tiragostos": {
     "Petiscos": [
       { nome: "Salame", preco: 15.00, img: "assets/img/" },
-      { nome: "C/ Queijo", preco: 25.00, img: "assets/img/" },
-      { nome: "Azeitona", preco: 7.00, img: "assets/img/" },
+      { nome: "Salame comn Queijo", preco: 25.00, img: "assets/img/" },
+      { nome: "Azeitonas", preco: 7.00, img: "assets/img/" },
       { nome: "Petisco Completo", preco: 30.00, img: "assets/img/" },
       { nome: "Queijo", preco: 15.00, img: "assets/img/" },
-      { nome: "Porção Batata Fritas", preco: 15.00, img: "assets/img/fritas.jpg" }
+     
     ],
     "Fritas": [
       { nome: "Carne do Sol com Farofa e Salada", preco: 25.00, img: "assets/img/fritas_carne_sol.jpg" },
-      { nome: "Carne do Sol com Batata Frita", preco: 30.00, img: "assets/img/carnedosolcomfritas.png" },
+      { nome: "Carne do Sol com Batatas Fritas", preco: 30.00, img: "assets/img/fritascarnesol.jpg" },
       { nome: "Carne do Sol com Pirão de Aipim", preco: 35.00, img: "assets/img/" },
       { nome: "Arrumadinho de Carne", preco: 35.00, img: "assets/img/arrumadinho_2.jpg" },
-      { nome: "Arrumadinho 1/2 de Carne", preco: 25.00, img: "assets/img/" },
+      { nome: "Arrumadinho Pequeno de Carne", preco: 25.00, img: "assets/img/" },
       { nome: "Isca de Frango com Fritas", preco: 40.00, img: "assets/img/" },
       { nome: "Isca de Frango com Salada e Farofa", preco: 30.00, img: "assets/img/" },
+       { nome: "Porção Batatas Fritas", preco: 15.00, img: "assets/img/fritas.jpg" },
       { nome: "Frango a Passarinha", preco: 35.00, img: "assets/img/" },
       { nome: "Camarão Alho e Óleo", preco: 35.00, img: "assets/img/" }
     ],
