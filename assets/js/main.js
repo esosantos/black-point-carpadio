@@ -82,7 +82,7 @@ const DATA = {
         { nome: "Pespsi  Lata 350ml", preco: 4.50, img: "assets/img/pepsilata.jpg" },
         { nome: "Pet Garrafinha 255ml", preco: 3.50, img: "assets/img/pitulha.jpg" }
       ],
-      "ÁGUA e Outros": [
+      "ÁGUA E OUTROS": [
         { nome: "Água com gás 500ml", preco: 3.00, img: "assets/img/aguacomgas.jpg" },
         { nome: "Água sem gás 500ml", preco: 2.00, img: "assets/img/aguasem.jpg" },
         { nome: "Água Tônica  350ml", preco: 3.00, img: "assets/img/aguatonica.jpg" },
