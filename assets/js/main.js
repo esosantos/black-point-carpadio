@@ -75,14 +75,14 @@ const DATA = {
 
     },
     "Bebidas Não Alcoólicas": {
-      "Refrigerante": [
+      "REFRIGERANTE": [
         { nome: "Coca-cola 1L", preco: 7.50, img: "assets/img/cola1l.jpg" },
         { nome: "Pepsi Cola 1L", preco: 7.00, img: "assets/img/pepsi1l.jpg" },
         { nome: "Coca-cola Lata 350ml", preco: 4.50, img: "assets/img/colalata.jpg" },
         { nome: "Pespsi  Lata 350ml", preco: 4.50, img: "assets/img/pepsilata.jpg" },
         { nome: "Pet Garrafinha 255ml", preco: 3.50, img: "assets/img/pitulha.jpg" }
       ],
-      "Águas e Outros": [
+      "ÁGUA e Outros": [
         { nome: "Água com gás 500ml", preco: 3.00, img: "assets/img/aguacomgas.jpg" },
         { nome: "Água sem gás 500ml", preco: 2.00, img: "assets/img/aguasem.jpg" },
         { nome: "Água Tônica  350ml", preco: 3.00, img: "assets/img/aguatonica.jpg" },
