@@ -74,7 +74,7 @@ const DATA = {
       ],
 
     },
-    "Bebidas Não Alcoólicas": {
+    "BEBIDAS SEM ÁLCOOL": {
       "REFRIGERANTE": [
         { nome: "Coca-cola 1L", preco: 7.50, img: "assets/img/cola1l.jpg" },
         { nome: "Pepsi Cola 1L", preco: 7.00, img: "assets/img/pepsi1l.jpg" },
