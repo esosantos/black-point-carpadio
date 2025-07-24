@@ -94,7 +94,7 @@ const DATA = {
   },
 
   "Tiragostos": {
-    "Petiscos": [
+    "PETISCOS": [
       { nome: "Salame", preco: 15.00, img: "assets/img/" },
       { nome: "Salame com Queijo", preco: 25.00, img: "assets/img/" },
       { nome: "Azeitonas", preco: 7.00, img: "assets/img/" },
@@ -102,7 +102,7 @@ const DATA = {
       { nome: "Queijo", preco: 15.00, img: "assets/img/" },
      
     ],
-    "Fritas": [
+    "FRITAS": [
       { nome: "Carne do Sol com Farofa e Salada", preco: 25.00, img: "assets/img/fritas_carne_sol.jpg" },
       { nome: "Carne do Sol com Batatas Fritas", preco: 30.00, img: "assets/img/fritascarnesol.jpg" },
       { nome: "Carne do Sol com Pirão de Aipim", preco: 35.00, img: "assets/img/" },
@@ -114,7 +114,7 @@ const DATA = {
       { nome: "Frango a Passarinha", preco: 35.00, img: "assets/img/frangoapassarinha.jpg" },
       { nome: "Camarão Alho e Óleo", preco: 35.00, img: "assets/img/" }
     ],
-    "Caldos": [
+    "CALDOS": [
       { nome: "Caldo de Sururu", preco: 10.00, img: "assets/img/" },
       { nome: "Caldo de Camarão", preco: 10.00, img: "assets/img/" },
       { nome: "Caldo Verde", preco: 8.00, img: "assets/img/" }
