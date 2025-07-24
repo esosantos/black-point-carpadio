@@ -111,7 +111,7 @@ const DATA = {
       { nome: "Isca de Frango com Fritas", preco: 40.00, img: "assets/img/" },
       { nome: "Isca de Frango com Salada e Farofa", preco: 30.00, img: "assets/img/" },
        { nome: "Porção Batatas Fritas", preco: 15.00, img: "assets/img/fritas.jpg" },
-      { nome: "Frango a Passarinha", preco: 35.00, img: "assets/img/" },
+      { nome: "Frango a Passarinha", preco: 35.00, img: "assets/img/frangoapassarinha.jpg" },
       { nome: "Camarão Alho e Óleo", preco: 35.00, img: "assets/img/" }
     ],
     "Caldos": [
