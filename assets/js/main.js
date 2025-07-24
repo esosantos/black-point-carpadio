@@ -9,7 +9,7 @@ const DATA = {
         { nome: "Spaten 600ml", preco: 12.00, img: "assets/img/gspaten.jpg" },
         { nome: "Budweiser 600ml", preco: 12.00, img: "assets/img/gbud600.jpg" },
         { nome: "Amstel 600ml", preco: 12.00, img: "assets/img/gamstel600.jpg" },
-        { nome: "Itaipava 600ml", preco: 7.00, img: "assets/img/gitaipava600.jpg" },
+        { nome: "Itaipava 600ml", preco: 9.00, img: "assets/img/gitaipava600.jpg" },
         { nome: "Schin 600ml", preco: 7.00, img: "assets/img/gschin600.jpg" },
         { nome: "Devassa 600ml", preco: 10.00, img: "assets/img/gdevassa60ml.jpg" },
         { nome: "Skol 600ml", preco: 10.00, img: "assets/img/gskol600.jpg" }
@@ -96,9 +96,9 @@ const DATA = {
   "Tiragostos": {
     "Petiscos": [
       { nome: "Salame", preco: 15.00, img: "assets/img/" },
-      { nome: "Salame comn Queijo", preco: 25.00, img: "assets/img/" },
+      { nome: "Salame com Queijo", preco: 25.00, img: "assets/img/" },
       { nome: "Azeitonas", preco: 7.00, img: "assets/img/" },
-      { nome: "Petisco Completo", preco: 30.00, img: "assets/img/" },
+      { nome: "Petisco Completo", preco: 30.00, img: "assets/img/salamecompleto.jpg" },
       { nome: "Queijo", preco: 15.00, img: "assets/img/" },
      
     ],
