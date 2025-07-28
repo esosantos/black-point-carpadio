@@ -96,30 +96,26 @@ const DATA = {
 
   "Tiragostos": {
     "PETISCOS": [
-      { nome: "Salame", preco: 15.00, img: "assets/img/" },
-      { nome: "Salame com Queijo", preco: 25.00, img: "assets/img/" },
-      { nome: "Azeitonas", preco: 7.00, img: "assets/img/" },
-      { nome: "Petisco Completo", preco: 30.00, img: "assets/img/salamecompleto.jpg" },
+      { nome: "Salame", preco: 15.00, img: "assets/img/salame.jpg" },
+      { nome: "Salame com Queijo", preco: 25.00, img: "assets/img/salamequeijo.jpg" },
+      { nome: "Azeitonas", preco: 7.00, img: "assets/img/azeitonas.jpg" },
+      { nome: "Petisco Completo", preco: 30.00, img: "assets/img/salamecompleto.png" },
       { nome: "Queijo", preco: 15.00, img: "assets/img/" },
      
     ],
     "FRITAS": [
-      { nome: "Carne do Sol com Farofa e Salada", preco: 25.00, img: "assets/img/fritas_carne_sol.jpg" },
-      { nome: "Carne do Sol com Batatas Fritas", preco: 30.00, img: "assets/img/fritascarnesol.jpg" },
-      { nome: "Carne do Sol com Pirão de Aipim", preco: 35.00, img: "assets/img/" },
-      { nome: "Arrumadinho de Carne", preco: 35.00, img: "assets/img/arrumadinho_2.jpg" },
-      { nome: "Arrumadinho Pequeno de Carne", preco: 25.00, img: "assets/img/" },
-      { nome: "Isca de Frango com Fritas", preco: 40.00, img: "assets/img/" },
+      { nome: "Carne do Sol com Farofa e Salada", preco: 25.00, img: "assets/img/carnecomfarinha.jpg" },
+      { nome: "Carne do Sol com Batatas Fritas", preco: 30.00, img: "assets/img/carnebatata.jpg" },
+      { nome: "Carne do Sol com Pirão de Aipim", preco: 35.00, img: "assets/img/carnedolsolcompirao.jpg" },
+      { nome: "Arrumadinho de Carne", preco: 35.00, img: "assets/img/arrumadinho.jpg" },
+      { nome: "Arrumadinho Pequeno de Carne", preco: 25.00, img: "assets/img/arruma2.jpg" },
+      { nome: "Isca de Frango com Fritas", preco: 40.00, img: "assets/img/iscacombatata.jpg" },
       { nome: "Isca de Frango com Salada e Farofa", preco: 30.00, img: "assets/img/" },
-       { nome: "Porção Batatas Fritas", preco: 15.00, img: "assets/img/fritas.jpg" },
-      { nome: "Frango a Passarinha", preco: 35.00, img: "assets/img/frangoapassarinha.jpg" },
-      { nome: "Camarão Alho e Óleo", preco: 35.00, img: "assets/img/" }
+       { nome: "Porção Batatas Fritas", preco: 15.00, img: "assets/img/iscacomsalada.jpg" },
+      { nome: "Frango a Passarinha", preco: 35.00, img: "assets/img/frangopassarinha.jpg" },
+      { nome: "Camarão Alho e Óleo", preco: 35.00, img: "assets/img/camara_a_oleo.jpg" }
     ],
-    "CALDOS": [
-      { nome: "Caldo de Sururu", preco: 10.00, img: "assets/img/" },
-      { nome: "Caldo de Camarão", preco: 10.00, img: "assets/img/" },
-      { nome: "Caldo Verde", preco: 8.00, img: "assets/img/" }
-    ]
+    
   }
 };
 
