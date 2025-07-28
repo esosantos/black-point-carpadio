@@ -5,90 +5,91 @@ const DATA = {
   "Bebidas": {
     "CERVEJA": {
       "GARRAFA": [
-        { nome: "Heineken 600ml", preco: 15.00, img: "assets/img/ghein.jpg" },
-        { nome: "Spaten 600ml", preco: 12.00, img: "assets/img/gspaten.jpg" },
-        { nome: "Budweiser 600ml", preco: 12.00, img: "assets/img/gbud600.jpg" },
-        { nome: "Amstel 600ml", preco: 12.00, img: "assets/img/gamstel600.jpg" },
-        { nome: "Itaipava 600ml", preco: 9.00, img: "assets/img/gitaipava600.jpg" },
-        { nome: "Schin 600ml", preco: 7.00, img: "assets/img/gschin600.jpg" },
-        { nome: "Devassa 600ml", preco: 10.00, img: "assets/img/gdevassa60ml.jpg" },
-        { nome: "Skol 600ml", preco: 10.00, img: "assets/img/gskol600.jpg" }
+        { nome: "Heineken 600ml", preco: 15.00, img: "assets/img/ghein.png" },
+        { nome: "Spaten 600ml", preco: 12.00, img: "assets/img/gspaten.png" },
+        { nome: "Budweiser 600ml", preco: 12.00, img: "assets/img/gbud600.png" },
+        { nome: "Amstel 600ml", preco: 12.00, img: "assets/img/gamstel600.png" },
+        { nome: "Itaipava 600ml", preco: 9.00, img: "assets/img/gitaipava600.png" },
+        { nome: "Schin 600ml", preco: 7.00, img: "assets/img/gschin600.png" },
+        { nome: "Devassa 600ml", preco: 10.00, img: "assets/img/gdevassa600.png" },
+        { nome: "Brahma 600ml", preco: 10.00, img: "assets/img/gbrahma.png" },
+        { nome: "Skol 600ml", preco: 10.00, img: "assets/img/gskol600.png" }
       ],
       "LONG NECK": [
-        { nome: "Heineken Long Neck 350ml", preco: 9.00, img: "assets/img/lnhein300ml.jpg" },
-        { nome: "Spaten Long Neck 350ml", preco: 8.00, img: "assets/img/lnspaten330.jpg" },
-        { nome: "Budweiser Long Neck 350ml", preco: 7.00, img: "assets/img/lnbudwei350.jpg" },
-        { nome: "Corona Long Neck 210ml", preco: 9.00, img: "assets/img/lncorona210ml.jpg" },
-        { nome: "Stella Long Neck 330ml", preco: 8.00, img: "assets/img/lnstella330ml.jpg" }
+        { nome: "Heineken 330ml", preco: 9.00, img: "assets/img/lnhein300ml.png" },
+        { nome: "Spaten 330ml", preco: 8.00, img: "assets/img/lnspaten330.png" },
+        { nome: "Budweiser 350ml", preco: 7.00, img: "assets/img/lnbudwei350.png" },
+        { nome: "Corona 210ml", preco: 9.00, img: "assets/img/lncorona210ml.png" },
+        { nome: "Stella 330ml", preco: 8.00, img: "assets/img/lnstella330ml.png" }
       ],
       "LATA": [
-        { nome: "Heineken Lata 330ml", preco: 7.00, img: "assets/img/lhein.jpg" },
-        { nome: "Spaten Lata 330ml", preco: 6.00, img: "assets/img/lspaten.jpg" },
-        { nome: "Amstel Lata 330ml", preco: 5.00, img: "assets/img/lamstel.jpg" },
-        { nome: "Budweiser Lata 350ml", preco: 5.00, img: "assets/img/lbud.jpg" },
-        { nome: "Itaipava Lata 350ml", preco: 4.00, img: "assets/img/litai.jpg" },
-        { nome: "Brahma Duplo Malte Lata 350ml", preco: 5.00, img: "assets/img/lbrahma.jpg" },
-        { nome: "Devassa Lata 350ml", preco: 5.00, img: "assets/img/ldevassa350.jpg" },
-        { nome: "Schin Lata 350ml", preco: 4.00, img: "assets/img/lschin350ml.jpg" }
+        { nome: "Heineken 330ml", preco: 7.00, img: "assets/img/lhein.png" },
+        { nome: "Spaten 330ml", preco: 6.00, img: "assets/img/lspaten.png" },
+        { nome: "Amstel 330ml", preco: 5.00, img: "assets/img/lamstel.png" },
+        { nome: "Budweiser 350ml", preco: 5.00, img: "assets/img/lbud.png" },
+        { nome: "Itaipava 350ml", preco: 4.00, img: "assets/img/lita350ml.png" },
+        { nome: "Brahma D. Malte 350ml", preco: 5.00, img: "assets/img/lbrahma.png" },
+        { nome: "Devassa 350ml", preco: 5.00, img: "assets/img/ldevassa.png" },
+        { nome: "Schin 350ml", preco: 4.00, img: "assets/img/lschin.png" }
       ],
       "MALZEBIER": [
-        { nome: "Brahma Malzebier Lata 350ml", preco: 8.00, img: "assets/img/brahmamalzebier.jpg" },
-        { nome: "Itaipava Malzebier Lata 350ml", preco: 7.00, img: "assets/img/itaipavamalzebier.jpg" }
+        { nome: "Brahma Malzebier Lata 350ml", preco: 8.00, img: "assets/img/brahmamalzebier.png" },
+        { nome: "Itaipava Malzebier Lata 350ml", preco: 7.00, img: "assets/img/itaipavamalzebier.png" }
       ],
       "SEM ÁLCOOL": [
-        { nome: "Heineken Long Neck 350ml", preco: 9.00, img: "assets/img/lgheinzer0.jpg" },
-        { nome: "Heineken Lata 350ml", preco: 7.00, img: "assets/img/lheinzer0350ml.jpg" },
-        { nome: "Budweinser Long Neck 350ml", preco: 8.00, img: "assets/img/lgbud0.jpg" },
+        { nome: "Heineken Long Neck 350ml", preco: 9.00, img: "assets/img/lgheinzer0.png" },
+        { nome: "Heineken Lata 350ml", preco: 7.00, img: "assets/img/lheinzer0350ml.png" },
+        { nome: "Budweinser Long Neck 350ml", preco: 8.00, img: "assets/img/lgbud0.png" },
         { nome: "Budweinser Lata 350ml", preco: 7.00, img: "assets/img/lbud0.png" },
-        { nome: "Itaipava Lata 350ml", preco: 6.00, img: "assets/img/litaipazer0350.jpg" },
-        { nome: "Brahma Lata 350ml", preco: 6.00, img: "assets/img/lbrahmazero350.jpg" }
+        { nome: "Itaipava Lata 350ml", preco: 6.00, img: "assets/img/litaipazer0350.png" },
+        { nome: "Brahma Lata 350ml", preco: 6.00, img: "assets/img/lbrahmazero.png" }
       ],
       "LITRINHO": [
-        { nome: "Skol 300ml", preco: 4.50, img: "assets/img/skollitrinho.jpg" },
-        { nome: "Brahma 300ml", preco: 4.50, img: "assets/img/litrinhobrahma300.jpg" }
+        { nome: "Skol 300ml", preco: 4.50, img: "assets/img/skollitrinho.png" },
+        { nome: "Brahma 300ml", preco: 4.50, img: "assets/img/litrinhobrahma300.png" }
       ]
     },
     "WHISKY (Doses)": [
-      { nome: "Johnnie Walker Red - Dose", preco: 20.00, img: "assets/img/redlabel.jpg" },
-      { nome: "Johnnie Walker Black - Dose", preco: 28.00, img: "assets/img/blacklabel.jpg" },
-      { nome: "Ballantine's - Dose", preco: 18.00, img: "assets/img/ballantines.jpg" }
+      { nome: "Johnnie Walker Red - Dose", preco: 20.00, img: "assets/img/redlabel.png" },
+      { nome: "Johnnie Walker Black - Dose", preco: 28.00, img: "assets/img/blacklabel.png" },
+      { nome: "Ballantine's - Dose", preco: 18.00, img: "assets/img/ballatines.png" }
     ],
     "VINHO": {
       "Garrafa": [
-        { nome: "Quinta do Morgado Suave", preco: 29.00, img: "assets/img/vinhoquinta.jpg" },
-        { nome: "Pérgola Tinto Suave", preco: 30.00, img: "assets/img/pergola.jpg" }
+        { nome: "Quinta do Morgado Suave", preco: 29.00, img: "assets/img/quinta.png" },
+        { nome: "Pérgola Tinto Suave", preco: 30.00, img: "assets/img/pergola.png" }
       ],
       "Taça": [
-        { nome: "Taça de Vinho Tinto", preco: 9.00, img: "assets/img/taça.jpg" },
-        { nome: "Pérgola Tinto Suave", preco: 9.90, img: "assets/img/taça.jpg" }
+        { nome: "Taça de Vinho Tinto", preco: 9.00, img: "assets/img/taca.png" },
+        { nome: "Pérgola Tinto Suave", preco: 9.90, img: "assets/img/taca.png" }
       ]
     },
     "DESTILADO": {
       "Dose": [
-        { nome: "Dreher / Domus", preco: 3.00, img: "assets/img/dreher.jpg" },
-        { nome: "Domecq", preco: 5.00, img: "assets/img/domecq.jpg" },
-        { nome: "Alcatrão", preco: 4.00, img: "assets/img/alcatrao.jpg" },
-        { nome: "Campari", preco: 6.00, img: "assets/img/campari.jpg" },
-        { nome: "Genebra", preco: 9.00, img: "assets/img/genebra.jpg" },
-        { nome: "Acrescentar Limão e Mel", preco: 1.00, img: "assets/img/limaoemel.jpg" }
+        { nome: "Dreher / Domus", preco: 3.00, img: "assets/img/dreher.png" },
+        { nome: "Domecq", preco: 5.00, img: "assets/img/domecq.png" },
+        { nome: "Alcatrão", preco: 4.00, img: "assets/img/acalcatrao.png" },
+        { nome: "Campari", preco: 6.00, img: "assets/img/campari.png" },
+        { nome: "Genebra", preco: 9.00, img: "assets/img/genebra.png" },
+        { nome: "Acrescentar Limão e Mel", preco: 1.00, img: "assets/img/limaoemel.png" }
       ],
 
     },
     "BEBIDAS SEM ÁLCOOL": {
       "REFRIGERANTE": [
-        { nome: "Coca-cola 1L", preco: 7.50, img: "assets/img/cola1l.jpg" },
-        { nome: "Pepsi Cola 1L", preco: 7.00, img: "assets/img/pepsi1l.jpg" },
-        { nome: "Coca-cola Lata 350ml", preco: 4.50, img: "assets/img/colalata.jpg" },
-        { nome: "Pespsi  Lata 350ml", preco: 4.50, img: "assets/img/pepsilata.jpg" },
-        { nome: "Pet Garrafinha 255ml", preco: 3.50, img: "assets/img/pitulha.jpg" }
+        { nome: "Coca-cola 1L", preco: 7.50, img: "assets/img/cola1l.png" },
+        { nome: "Pepsi Cola 1L", preco: 7.00, img: "assets/img/pepsi1l.png" },
+        { nome: "Coca-cola Lata 350ml", preco: 4.50, img: "assets/img/colalata.png" },
+        { nome: "Pespsi  Lata 350ml", preco: 4.50, img: "assets/img/pepsilata.png" },
+        { nome: "Pet Garrafinha 255ml", preco: 3.50, img: "assets/img/pitulha.png" }
       ],
       "ÁGUA E OUTROS": [
-        { nome: "Água com gás 500ml", preco: 3.00, img: "assets/img/aguacomgas.jpg" },
-        { nome: "Água sem gás 500ml", preco: 2.00, img: "assets/img/aguasem.jpg" },
-        { nome: "Água Tônica  350ml", preco: 3.00, img: "assets/img/aguatonica.jpg" },
-        { nome: "Suco", preco: 2.50, img: "assets/img/suco.jpg" },
-        { nome: "Chá", preco: 9.50, img: "assets/img/cha.jpg" },
-        { nome: "Energético", preco: 7.50, img: "assets/img/energetico.jpg" }
+        { nome: "Água com gás 500ml", preco: 3.00, img: "assets/img/aguacomgas.png" },
+        { nome: "Água sem gás 500ml", preco: 2.00, img: "assets/img/aguasem.png" },
+        { nome: "Água Tônica  350ml", preco: 3.00, img: "assets/img/aguatonica.png" },
+        { nome: "Suco", preco: 2.50, img: "assets/img/suco.png" },
+        { nome: "Chá", preco: 9.50, img: "assets/img/cha.png" },
+        { nome: "Energético", preco: 7.50, img: "assets/img/energetico.png" }
       ]
     }
   },
